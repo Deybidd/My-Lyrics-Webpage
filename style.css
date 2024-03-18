@@ -1,0 +1,43 @@
+@font-face {
+  font-family: fontStyle;
+  src: url("AJR Font.woff");
+}
+
+* {
+  font-family:  fontStyle;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+body {
+    background-image: url(BackgroundLandscape.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 107vh;
+    background-position: top;
+}
+h1, p {
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+}
+p {
+    font-size: 30px;
+}
